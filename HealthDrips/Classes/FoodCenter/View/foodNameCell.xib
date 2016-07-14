@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="isEnable" selectionStyle="default" indentationWidth="10" rowHeight="480" id="KGk-i7-Jjw" customClass="foodNameCell">
+            <rect key="frame" x="0.0" y="0.0" width="323" height="410"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tmr-H6-aVr">
+                        <rect key="frame" x="10" y="10" width="303" height="160"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Vfy-TF-dX0">
+                                <rect key="frame" x="0.0" y="0.0" width="303" height="130"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="菜名" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QTl-lX-o1p" userLabel="name">
+                                <rect key="frame" x="0.0" y="100" width="303" height="30"/>
+                                <color key="backgroundColor" red="0.050980396568775177" green="0.050980396568775177" blue="0.015686275437474251" alpha="0.20000000000000001" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="vTg-7c-3OU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="食材:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H38-6L-HQe">
+                                <rect key="frame" x="5" y="135" width="35" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="FxQ-nr-ADM"/>
+                                    <constraint firstAttribute="width" constant="35" id="m9f-F3-afQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="食材信息" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b43-FS-bkv">
+                                <rect key="frame" x="40" y="135" width="258" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98431378599999997" green="0.98431378599999997" blue="0.95294123890000004" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstItem="QTl-lX-o1p" firstAttribute="bottom" secondItem="Vfy-TF-dX0" secondAttribute="bottom" id="8yH-W6-D3F"/>
+                            <constraint firstAttribute="bottom" secondItem="Vfy-TF-dX0" secondAttribute="bottom" constant="30" id="Mln-Kk-mhk"/>
+                            <constraint firstItem="b43-FS-bkv" firstAttribute="bottom" secondItem="H38-6L-HQe" secondAttribute="bottom" id="OW8-ao-kai"/>
+                            <constraint firstItem="QTl-lX-o1p" firstAttribute="trailing" secondItem="Vfy-TF-dX0" secondAttribute="trailing" id="RSC-6j-S3V"/>
+                            <constraint firstItem="Vfy-TF-dX0" firstAttribute="leading" secondItem="tmr-H6-aVr" secondAttribute="leading" id="Ryi-PE-0dU"/>
+                            <constraint firstItem="QTl-lX-o1p" firstAttribute="leading" secondItem="Vfy-TF-dX0" secondAttribute="leading" id="WmP-Jl-V7s"/>
+                            <constraint firstAttribute="trailing" secondItem="b43-FS-bkv" secondAttribute="trailing" constant="5" id="cMS-ao-RZB"/>
+                            <constraint firstItem="b43-FS-bkv" firstAttribute="leading" secondItem="H38-6L-HQe" secondAttribute="trailing" id="fAd-n7-pNB"/>
+                            <constraint firstItem="H38-6L-HQe" firstAttribute="leading" secondItem="tmr-H6-aVr" secondAttribute="leading" constant="5" id="hhg-le-QNc"/>
+                            <constraint firstItem="Vfy-TF-dX0" firstAttribute="top" secondItem="tmr-H6-aVr" secondAttribute="top" id="jBI-6N-xP1"/>
+                            <constraint firstAttribute="trailing" secondItem="Vfy-TF-dX0" secondAttribute="trailing" id="lZd-0q-BAH"/>
+                            <constraint firstAttribute="bottom" secondItem="H38-6L-HQe" secondAttribute="bottom" constant="5" id="t8m-ns-JNj"/>
+                            <constraint firstItem="b43-FS-bkv" firstAttribute="top" secondItem="H38-6L-HQe" secondAttribute="top" id="w7e-kD-Kz8"/>
+                        </constraints>
+                    </view>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ggI-Mb-hab">
+                        <rect key="frame" x="8" y="181" width="307" height="221"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="221" id="FBH-nU-4gA"/>
+                        </constraints>
+                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="ggI-Mb-hab" secondAttribute="trailing" constant="8" id="Krg-zd-YCl"/>
+                    <constraint firstAttribute="trailing" secondItem="tmr-H6-aVr" secondAttribute="trailing" constant="10" id="Y1t-Uc-RAP"/>
+                    <constraint firstItem="ggI-Mb-hab" firstAttribute="top" secondItem="tmr-H6-aVr" secondAttribute="bottom" constant="11" id="dRi-ih-Luy"/>
+                    <constraint firstAttribute="bottom" secondItem="ggI-Mb-hab" secondAttribute="bottom" constant="8" id="kwI-F5-pgK"/>
+                    <constraint firstItem="ggI-Mb-hab" firstAttribute="top" secondItem="tmr-H6-aVr" secondAttribute="bottom" constant="8" id="oN1-Yo-WbV"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="ggI-Mb-hab" secondAttribute="bottom" constant="-1" id="qkT-VV-Zpe"/>
+                    <constraint firstItem="tmr-H6-aVr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="sK2-ho-Hmu"/>
+                    <constraint firstAttribute="bottom" secondItem="tmr-H6-aVr" secondAttribute="bottom" constant="10" id="wQk-ms-foI"/>
+                    <constraint firstItem="tmr-H6-aVr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="yjG-jJ-fpi"/>
+                    <constraint firstItem="ggI-Mb-hab" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="zUG-JO-9hJ"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="wQk-ms-foI"/>
+                        <exclude reference="kwI-F5-pgK"/>
+                        <exclude reference="oN1-Yo-WbV"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="ContainView" destination="tmr-H6-aVr" id="I11-Nh-TLd"/>
+                <outlet property="food" destination="b43-FS-bkv" id="Qcl-gy-zXT"/>
+                <outlet property="img" destination="Vfy-TF-dX0" id="Hzg-Bc-BVY"/>
+                <outlet property="name" destination="QTl-lX-o1p" id="zdX-bg-mwk"/>
+            </connections>
+            <point key="canvasLocation" x="251.5" y="231"/>
+        </tableViewCell>
+    </objects>
+</document>

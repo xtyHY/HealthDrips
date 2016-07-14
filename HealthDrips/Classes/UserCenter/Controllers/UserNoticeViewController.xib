@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13F1112" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UserNoticeViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="urj-7t-LJE">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <mutableString key="text">一、 本应用服务条款的确认和接纳
+
+本应用的各项电子服务的所有权和运作权归本应用。本应用提供的服务将完全按照其发布的服务条款和操作规则严格执行。用户同意所有服务条款并完成注册程序时，本协议在用户与本应用间成立并发生法律效力，同时用户成为本应用正式用户。用户确认：本协议条款是处理双方权利义务的约定，除非违反国家强制性法律，否则始终有效。
+
+二、 服务简介
+
+本应用由UpTeam团队（http://www.devhy.com/upteam/）经营与维护，由天狗云开放平台（http://www.tngou.net/）提供健康资讯信息数据。数据准确性由天狗云开放平台承担。
+
+三、 用户的账号、密码和安全性
+
+用户一旦注册成功，成为本应用的合法用户，将得到一个密码和用户名。您可随时根据指示改变您的密码。用户需谨慎合理的保存、使用用户名和密码。用户若发现任何非法使用用户账号或存在安全漏洞的情况，请立即通知本应用或向公安机关报案。
+
+四、 用户隐私
+
+1、 尊重用户个人隐私是本应用的一项基本政策。用户在进行注册登记、接受本应用的在线服务时，本应用会请求您提供以下可以与您联系的信息，这些信息通常仅限于您的用户名、邮箱（可不填）、地理位置等信息，有时候为给您提供个性的药事服务，我们可能还会请求您提供您的联系方式。请了解，在未经您同意及确认之前，本应用不会将您提供的上述资料用于其它目的。
+
+2、 用户信息安全：本应用将对您所提供的资料进行严格的管理及保护，我们将使用相应的技术，防止您的用户资料丢失、被盗用或遭篡改。本应用得在必要时委托专业技术人员代为对该类资料进行信息处理，如本应用将信息处理之通知送达予您，而您未在通知规定的时间内主动明示反对，本应用将推定您已同意。其后您仍然有权请求停止该处理。
+
+3、 用户可随时查询及请求阅览、补充、更正、删除、请求停止信息处理及利用自己的个人信息。
+
+4、 披露免责：就下列相关事宜的发生，对用户个人信息进行使用或披露的，本应用不承担任何法律责任：
+(1) 已取得用户本人的书面同意而披露的；
+(2) 为免除用户在生命、身体或财产方面之急迫危险而披露的；
+(3) 为防止他人权益之重大危害而披露的；
+(4) 为增进公共利益，且无害于用户本人的重大利益而披露的；
+(5) 当政府机关依照法定程序要求本平台披露的；
+(6) 用户本人将密码告知他人或与他人共享注册帐户，由此导致用户信息泄露的；
+(7) 任何由于黑客政击、计算机病毒、因政府管制而造成的暂时性关闭等影响网络正常经营之不可抗力而造成的用户信息泄露、丢失、被盗用或被篡改等的；
+(8) 由于与本应用链接的其它网站所造成的用户信息泄露的；
+(9) 因不可抗力导致的任何后果。
+
+五、 用户管理
+
+本协议依据国家相关法律法规规章制定，用户同意严格遵守以下条款：
+1、 不利用本应用从事任何非法活动。
+2、 不干扰或混乱网络服务。
+3、 遵守所有使用网络服务的网络协议、规定、程序和惯例。
+4、 不传输任何违法犯罪的、骚扰性的、中伤他人的、辱骂性的、恐吓性的、伤害性的、庸俗的、淫秽的、不文明的信息资料；不传输损害国家社会公共利益和涉及国家安全的信息资料。
+5、 若用户的行为不符合以上提到的服务条款，本应用将作出独立判断立即取消用户服务账号。用户需对自己在网上的行为承担法律责任。用户若有违反国家法律法规的行为，本应用的系统记录有可能作为用户违法的书面证据。
+
+六、 本应用服务内容的所有权
+
+本应用提供或转载的资料及相关图片，其版权均由原作者或原刊载媒介拥有，未经版权所有人同意，任何机构或个人不得擅自将其作为商业用途。本应用依法保障版权所有人的相关权利。基于部分著作权人对其著作权的主张，可能不赞同本应用对其作品的使用；或者著作权人已对他方作出某种承诺；或其本人发表过某种声明，限制其作品的使用，但这部分作品却被本应用误用，对这部分作品在充分维护相关权利人利益的基础上，请相关权利人在两周内速来电或来函联系，向本应用提交权利人身份证明材料及可以说明版权所有者情况的材料，根据双方协商的结果进行处理。本应用希望与相关权利人签订付费使用合同，如权利人不同意本平台使用，本应用将停止该作品的使用，以减少双方的损失。否则，由此扩大的损失，由相关权利人自负。本应用只在合理范围内承担责任。
+
+七、 法律免责
+
+1、 本应用数据来源为天狗云开放平台，数据的准确性与本应用无关。请用户到有资质的医院进行就诊。若因擅自参考不准确的信息而导致的风险与损失，本应用不承担责任。本应用根据国家法律法规规定以链接形式推荐的信息仅供展示，本应用不担保这些链接内容、产品、服务或其他材料的真实性、完整性、安全性与合法性。用户应谨慎判断并自担风险，避免任何因使用或信赖此类内容、产品、服务或其他材料而造成的任何直接或间接损失。
+2、 本应用可能因黑客攻击、计算机病毒、政府管制而造成资料储存上的错误、篡改或伪造变造资料、系统的暂时性关闭，或与本应用链接的其它应用或网站原因导致个人资料泄露、被盗用或被篡改等，对此用户表示理解和接受。
+
+八、 服务条款的修改
+
+本应用将可能不定期地修改本用户协议的有关条款，一旦条款及服务内容产生变动，本应用将会在重要页面上提示修改内容。本应用有权在任何时候，修改或暂停、终止本平台全部或部分服务，对此用户表示可以理解与接受。
+
+九、 法律管辖与适用
+
+1、 本协议的订立、执行和解释及争议的解决均应适用中国法律。
+2、 如发生本应用服务条款与中国法律相抵触时，则这些条款将完全按法律法规重新解释，其他条款继续有效。
+3、 如双方就本协议内容或其执行发生任何争议，双方应尽力友好协商解决；无法协商一致的，任何一方均可向人民法院提起诉讼。
+
+十、 其他
+
+如用户完成注册登录本应用，即表明用户信任本应用，自愿选择接受本应用提供的药事服务，并接受本协议所有条款。如果用户不接受本协议，请停止注册，已完成注册的请及时注销账号并删除本应用。本协议条款的最终解释权归本应用所有。</mutableString>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="urj-7t-LJE" secondAttribute="trailing" id="3xE-3d-Wnu"/>
+                <constraint firstItem="urj-7t-LJE" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="IVA-pk-bXn"/>
+                <constraint firstAttribute="bottom" secondItem="urj-7t-LJE" secondAttribute="bottom" id="ZgH-1C-uAy"/>
+                <constraint firstItem="urj-7t-LJE" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ywo-c5-xQx"/>
+            </constraints>
+            <point key="canvasLocation" x="345" y="256"/>
+        </view>
+    </objects>
+</document>

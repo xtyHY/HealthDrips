@@ -1,0 +1,25 @@
+//
+//  HealthDrips.pch
+//  HealthDrips
+//
+//  Created by Cedric on 15/10/28.
+//  Copyright © 2015年 UpTeam. All rights reserved.
+//
+
+#ifndef HealthDrips_pch
+#define HealthDrips_pch
+
+#import <UIKit/UIKit.h>
+
+//==第三方库
+#import "3rdLibsMacros.h"
+//==外形尺寸
+#import "DimensMacros.h"
+//==沙盒路径宏
+#import "SandyPathMacros.h"
+//==工具宏
+#import "UtilsMacros.h"
+//==接口宏
+#import "ApisMacros.h"
+
+#endif /* HealthDrips_pch */

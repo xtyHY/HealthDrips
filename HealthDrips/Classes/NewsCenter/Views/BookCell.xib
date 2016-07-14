@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="339" id="KGk-i7-Jjw" customClass="BookCell">
+            <rect key="frame" x="0.0" y="0.0" width="467" height="204"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="467" height="203.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="DCG-p1-KST">
+                        <rect key="frame" x="28" y="28" width="417" height="157.5"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.92941182850000004" green="0.93333339689999995" blue="0.70588237050000002" alpha="1" colorSpace="deviceRGB"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="40" minimumInteritemSpacing="0.0" id="VS6-ZH-TeG">
+                            <size key="itemSize" width="80" height="157"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <connections>
+                            <outlet property="dataSource" destination="-1" id="Iwp-FN-m0I"/>
+                            <outlet property="delegate" destination="-1" id="IIZ-Lz-tpk"/>
+                        </connections>
+                    </collectionView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="青春图书" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Urg-Cf-6ze">
+                        <rect key="frame" x="28" y="10" width="80" height="12"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="JHK-Jo-2cz"/>
+                            <constraint firstAttribute="width" constant="80" id="NdR-s4-mXS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="DCG-p1-KST" secondAttribute="bottom" constant="10" id="6fm-JB-TJG"/>
+                    <constraint firstItem="DCG-p1-KST" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="20" id="7zZ-1a-xqs"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="DCG-p1-KST" secondAttribute="trailing" constant="14" id="8wn-F5-PDd"/>
+                    <constraint firstItem="Urg-Cf-6ze" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="20" id="COw-jQ-b5T"/>
+                    <constraint firstItem="DCG-p1-KST" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="20" id="Nqj-Uw-i41"/>
+                    <constraint firstItem="Urg-Cf-6ze" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="2" id="wFK-jC-qGX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <color key="backgroundColor" red="0.92941182850000004" green="0.93333339689999995" blue="0.70588237050000002" alpha="1" colorSpace="deviceRGB"/>
+            <connections>
+                <outlet property="bookCollection" destination="DCG-p1-KST" id="vmm-4v-wLH"/>
+                <outlet property="tyoeLabel" destination="Urg-Cf-6ze" id="Ajd-18-w97"/>
+            </connections>
+            <point key="canvasLocation" x="274.5" y="225"/>
+        </tableViewCell>
+    </objects>
+</document>
