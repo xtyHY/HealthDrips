@@ -134,14 +134,14 @@
 
 //==用户接口[长度限制account(20),password(20),nickname(20),email(40)]
 //注册接口[必填account、password、nickname(昵称)选填email(邮箱)、icon(头像)]
-//调用实例 http://www.devhy.com/myApi/HealthDripsUser.php?action=add&account=devhy&password=123456&nickname=hy&email=442312699@qq.com&icon=v.png
-#define API_USER_REGISTER   @"http://www.devhy.com/myApi/HealthDripsUser.php?action=add"
+//调用实例 http://api.devhy.com/HealthDrips/user.php?action=add&account=devhy&password=123456&nickname=hy&email=442312699@qq.com&icon=v.png
+#define API_USER_REGISTER   @"http://api.devhy.com/HealthDrips/user.php?action=add"
 //登陆接口[必填account、password]
-//调用实例http://www.devhy.com/myApi/HealthDripsUser.php?action=login&account=hy123&password=123
-#define API_USER_LOGIN      @"http://www.devhy.com/myApi/HealthDripsUser.php?action=login"
+//调用实例http://api.devhy.com/HealthDrips/user.php?action=login&account=hy123&password=123
+#define API_USER_LOGIN      @"http://api.devhy.com/HealthDrips/user.php?action=login"
 //查询用户接口[必填项account]
-//调用实例http://www.devhy.com/myApi/HealthDripsUser.php?action=find&account=hy123
-#define API_USER_FIND       @"http://www.devhy.com/myApi/HealthDripsUser.php?action=find"
+//调用实例http://api.devhy.com/HealthDrips/user.php?action=find&account=hy123
+#define API_USER_FIND       @"http://api.devhy.com/HealthDrips/user.php?action=find"
 
 //==ApiKey
 #define KEY_UMENG   @"56468f0fe0f55aa55e007ddf"
